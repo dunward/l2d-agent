@@ -64,9 +64,7 @@ namespace Live2D.Cubism.Framework.MouthMovement
                 .Parameters
                 .GetComponentsMany<CubismMouthParameter>();
 
-
             Destinations = new CubismParameter[tags.Length];
-
 
             for (var i = 0; i < tags.Length; ++i)
             {
@@ -109,7 +107,8 @@ namespace Live2D.Cubism.Framework.MouthMovement
 
 
             // Apply value.
-            Destinations.BlendToValue(BlendMode, MouthOpening);
+            Destinations[0].OverrideValue(MouthOpening);
+            Destinations.BlendToValue(BlendMode, MouthOpening); // why this is not working?
         }
 
         #region Unity Events Handling
