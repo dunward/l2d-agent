@@ -303,6 +303,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1859,7 +1872,77 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texture_01_0: 8479817596171211646
+      texture_01_1: -6716458546556092549
+      texture_01_10: 7853805924803746533
+      texture_01_11: 1425175291112379634
+      texture_01_12: -6772432751783035240
+      texture_01_13: 4143957626312264124
+      texture_01_14: -1912592437996708591
+      texture_01_15: 5104447523748107585
+      texture_01_16: -4462335798064583263
+      texture_01_17: -5207703768313535068
+      texture_01_18: 2180333127319919083
+      texture_01_19: 3320408887549147865
+      texture_01_2: 4530248517387076953
+      texture_01_20: -643232576196194999
+      texture_01_21: -329088550042391828
+      texture_01_22: -1591961916920970932
+      texture_01_23: 1596373397520758297
+      texture_01_24: -2394739131579309818
+      texture_01_25: 7324868893394053508
+      texture_01_26: 7297434621443280951
+      texture_01_27: -8563405720943543399
+      texture_01_28: 4693585488044915219
+      texture_01_29: 3992571515603301772
+      texture_01_3: -8049123902151941309
+      texture_01_30: 1828734578320973468
+      texture_01_31: -1578939318282572921
+      texture_01_32: -8769053341334161556
+      texture_01_33: -5873971686336368314
+      texture_01_34: -3477810601242127185
+      texture_01_35: 8509168533848330391
+      texture_01_36: -4393502992483644700
+      texture_01_37: 6980165490494819709
+      texture_01_38: -4201049665859796146
+      texture_01_39: 3746439203723507785
+      texture_01_4: -1634172274172970821
+      texture_01_40: -5465545776856421847
+      texture_01_41: 8039928231596718267
+      texture_01_42: -8884555341403136899
+      texture_01_43: -5508058717641977962
+      texture_01_44: 4506677930207636585
+      texture_01_45: 4243759625226067254
+      texture_01_46: 8741863760319986658
+      texture_01_47: -8540336100354939051
+      texture_01_48: -731259054885126168
+      texture_01_49: -6749059165036161048
+      texture_01_5: 1894347790693319049
+      texture_01_50: -6471438202563741283
+      texture_01_51: 152893719305464796
+      texture_01_52: -227238871432454310
+      texture_01_53: 7424926658842744892
+      texture_01_54: -4566906902993174701
+      texture_01_55: -4665913067374869864
+      texture_01_56: 736121666551143606
+      texture_01_57: -4734480822385765173
+      texture_01_58: 7038982689587312116
+      texture_01_59: 6712608493927218285
+      texture_01_6: -4899264413296735089
+      texture_01_60: -9159469525833410107
+      texture_01_61: -4512511680707651023
+      texture_01_62: 8651683438508095401
+      texture_01_63: 3688152164685489191
+      texture_01_64: 1195395977520312754
+      texture_01_65: -6863045732882751328
+      texture_01_66: 4930439082393086272
+      texture_01_67: 1292504874499900785
+      texture_01_68: 3029497932558578807
+      texture_01_69: -3148835634030743828
+      texture_01_7: 5826427639703287226
+      texture_01_8: 5737896364350562117
+      texture_01_9: -8379493886594819428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
