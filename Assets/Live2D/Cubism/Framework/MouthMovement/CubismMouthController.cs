@@ -109,6 +109,7 @@ namespace Live2D.Cubism.Framework.MouthMovement
             // Apply value.
             Destinations[0].OverrideValue(MouthOpening);
             Destinations.BlendToValue(BlendMode, MouthOpening); // why this is not working?
+            Debug.LogError($"MouthOpening: {MouthOpening}, BlendMode: {BlendMode}, Destinations: {Destinations[0].Id}");
         }
 
         #region Unity Events Handling
@@ -132,6 +133,16 @@ namespace Live2D.Cubism.Framework.MouthMovement
                 OnLateUpdate();
             }
         }
+
+        // private void Update()
+        // {
+        //     OnLateUpdate();
+        // }
+
+        // private void FixedUpdate()
+        // {
+        //     OnLateUpdate();
+        // }
 
         #endregion
     }
