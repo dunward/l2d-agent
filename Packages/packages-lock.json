@@ -160,6 +160,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.ides": {
+      "version": "https://github.com/dunward/com.unity.ides.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.9"
+      },
+      "hash": "0964159e3f8aefcf45d25a2ff1f3e63013ef34cd"
+    },
     "com.unity.inputsystem": {
       "version": "1.14.0",
       "depth": 0,
